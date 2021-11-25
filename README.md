@@ -10,7 +10,7 @@ Visit Here For Online Demo - https://arjunhpes.github.io/neighborhood-map-react/
 
 # ScreenShot
 
-![ScreenShot](https://raw.githubusercontent.com/devhpes/neighborhood-map-react/master/src/screenshot/screenshot.png)
+[![screenshot.png](https://i.postimg.cc/qRgk2w6W/screenshot.png)](https://postimg.cc/9R55hGpB)
 
 ## Dependencies
 
