@@ -1,0 +1,65 @@
+/* CSS for styling */
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  width: 100%;
+  height: 100vh;
+}
+    
+#App {
+  display: flex;
+  flex: row nowrap;
+}
+
+/* CSS for sidebar */
+#sideBar {
+  width: 350px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.heading {
+  border: 3px solid rgb(31, 131, 134);
+  border-radius: 5px;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 5px;
+}
+
+.search { 
+  padding: 6px;
+  width: 200px;
+  margin-bottom: 8px;
+}
+
+#listItem {
+  color: rgb(0, 0, 0);
+  font-size: 1.1em;
+  font-weight: 500;
+  border: 2px solid rgb(11, 177, 168);
+  cursor: pointer;
+}
+
+#listItem :hover {
+  color: rgb(255, 6, 101);
+}
+
+#venueList {
+  color: rgb(0, 0, 0);
+}
+
+/* Media query for sidebar responsivnes */
+
+@media screen and (max-width: 633px){
+  #sideBar {
+    display: none;
+  }
+}
